@@ -1,0 +1,29 @@
+create database Colegio;
+
+
+
+use Colegio;
+
+
+Create table Usuarios(
+
+Usuario char(25),
+
+Pass char(25)
+
+);
+
+create table Alumnos(
+
+idalumnos smallint,
+
+nombres char(25),
+
+apellidos char(25),
+
+curso char(25),
+calificacion char(25),
+
+primary key (idalumnos)
+
+);
